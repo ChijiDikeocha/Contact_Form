@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* border: 1px solid black; */
+    height: 130vh;
+    width: 100%;
+    background-color :  rgb(203, 29, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    height: 125vh;
+    width: 90%;
+    background-color: azure;
+    align-tracks: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.h{
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 15px;
+}
+
+.formelement{
+    display: flex;
+    flex-direction:row;
+    padding: 5px;
+    margin-left: 45px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: horizontal;
+}
+
+textarea, input{
+    width: 280%;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px ;
+}
+
+
+.button{
+    background-color: rgb(165, 42, 147);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 30px;
+    border-radius: 3ch;
+    padding: 15px;
+    margin-left: 120%;
+}
+
+.Choose-Service{
+    width: 50%;
+
+}

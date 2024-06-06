@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form_1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box1"> 
+            <div class="header">
+                <h2 class="h">Say Hello!</h2>
+            </div>
+            <div class="formelement">
+            <form action="" method="post">
+                <label for="Your Name">Your Name</label><br>
+                <input required ="text" id="Your Name" name=" yourname" placeholder="Write your name"><br>
+                <br><br>
+                <label for="Your Email">Your Email</label><br>
+                <input required ="text" id="Your Email" name=" youremail" placeholder="Write your Email"><br>
+                <br><br>
+                <label for="Yourpassword">Your Password</label><br>
+                <input required ="text" id="Yourpassword" name=" Yourpassword" placeholder="Write your Password"><br>
+                <br><br>
+                <label for="gender"> Select Your Gender</label><br>
+                <label for="gender"> Male </label>
+                <input type="radio" id="Male" name="gender" placeholder="Male"><br>
+                <label for="gender"> Female</label>
+                <input type="radio" name="gender" id=" Female" placeholder="Female"><br>
+                <label for="gender"> Others</label>
+                <input type="radio" id="Others" name="gender" placeholder="Others"><br>
+                <br><br>
+                <label for="chooseservice"> Needed Services</label>
+                <input type="text" name="chooseservice" id="chooseservice">
+                    <select name="chooseservice" id="Chose Services">Needed Services>
+                    <option value="Choose Service">Choose Service</option>
+                    <option value="Business">Business</option>
+                    <option value="Consultancy">Consultancy</option>
+                    <option value="Legal">Legal</option>
+                    <option value="Research">Research</option>
+                    </select>    
+                <br><br>
+                <label for="Budget">Budget</label>
+                <input type="select" name="Choose Budget" id="Choose Budget">
+                <select name="Budget" id="Budget">Budget>
+                    <option value="Choose Budget">Choose Budget</option>
+                    <option value="$500">$500-$800</option>
+                    <option value="$200">$200-$400</option>
+                    <option value="$100">$100-$150</option>
+                    <option value="$50">$50 - $90</option>
+                </select><br>    
+                <br><br>
+                <label for="textarea"> Your Message</label><br>
+                <textarea name="message" id="Your Message" placeholder="Write your message"></textarea>
+                <br><br>
+                <button class="button" value="button">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
